@@ -4,6 +4,14 @@
  
     <rm:property key="projects.location" value="${workspace.root}" />
  
+   <rm:searchPath name="buildsvn">
+    <rm:provider componentTypes="eclipse.feature,osgi.bundle,buckminster" readerType="svn" source="true">
+      <rm:uri format="https://anonymous:anonymous@svnserver.informatik.kit.edu/i43/svn/code/Build/trunk/{0}">
+      	<bc:propertyRef key="buckminster.component" />
+      </rm:uri>
+    </rm:provider>
+  </rm:searchPath>
+  
     <rm:searchPath name="epp">
         <rm:provider componentTypes="osgi.bundle,eclipse.feature"
             readerType="p2" source="false" mutable="false">
@@ -23,6 +31,7 @@
         </rm:provider>
     </rm:searchPath>
 
+    <rm:locator searchPathRef="buildsvn" failOnError="false" />
     <rm:locator searchPathRef="epp" failOnError="false" />
     <rm:locator searchPathRef="kepler-releases" failOnError="false" />
     <rm:locator searchPathRef="kepler-updates" failOnError="true" />
