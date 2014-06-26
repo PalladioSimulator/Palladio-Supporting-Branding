@@ -15,19 +15,19 @@
     <rm:searchPath name="epp">
         <rm:provider componentTypes="osgi.bundle,eclipse.feature"
             readerType="p2" source="false" mutable="false">
-            <rm:uri format="http://download.eclipse.org/technology/epp/packages/kepler" />
+            <rm:uri format="http://download.eclipse.org/technology/epp/packages/luna" />
         </rm:provider>
     </rm:searchPath>
     <rm:searchPath name="kepler-releases">
         <rm:provider componentTypes="osgi.bundle,eclipse.feature"
             readerType="p2" source="false" mutable="false">
-            <rm:uri format="http://download.eclipse.org/releases/kepler" />
+            <rm:uri format="http://download.eclipse.org/releases/luna" />
         </rm:provider>
     </rm:searchPath>
     <rm:searchPath name="kepler-updates">
         <rm:provider componentTypes="osgi.bundle,eclipse.feature"
             readerType="p2" source="false" mutable="false">
-            <rm:uri format="http://download.eclipse.org/eclipse/updates/4.3" />
+            <rm:uri format="http://download.eclipse.org/eclipse/updates/4.4" />
         </rm:provider>
     </rm:searchPath>
 
