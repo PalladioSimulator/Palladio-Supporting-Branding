@@ -18,13 +18,13 @@
             <rm:uri format="http://download.eclipse.org/technology/epp/packages/luna" />
         </rm:provider>
     </rm:searchPath>
-    <rm:searchPath name="kepler-releases">
+    <rm:searchPath name="luna-releases">
         <rm:provider componentTypes="osgi.bundle,eclipse.feature"
             readerType="p2" source="false" mutable="false">
             <rm:uri format="http://download.eclipse.org/releases/luna" />
         </rm:provider>
     </rm:searchPath>
-    <rm:searchPath name="kepler-updates">
+    <rm:searchPath name="luna-updates">
         <rm:provider componentTypes="osgi.bundle,eclipse.feature"
             readerType="p2" source="false" mutable="false">
             <rm:uri format="http://download.eclipse.org/eclipse/updates/4.4" />
@@ -33,6 +33,6 @@
 
     <rm:locator searchPathRef="buildsvn" failOnError="false" />
     <rm:locator searchPathRef="epp" failOnError="false" />
-    <rm:locator searchPathRef="kepler-releases" failOnError="false" />
-    <rm:locator searchPathRef="kepler-updates" failOnError="true" />
+    <rm:locator searchPathRef="luna-releases" failOnError="false" />
+    <rm:locator searchPathRef="luna-updates" failOnError="true" />
 </rm:rmap>
