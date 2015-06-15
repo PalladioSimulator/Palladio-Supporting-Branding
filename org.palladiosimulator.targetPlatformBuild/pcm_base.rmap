@@ -5,6 +5,7 @@
   <rm:locator pattern="^de\.fzi\.se.*" searchPathRef="pcm" failOnError="false"/>
   <rm:locator pattern="^org\.palladiosimulator\..*" searchPathRef="pcm" failOnError="false"/>
   <rm:locator pattern="^org\.palladiosimulator\.mdsdprofiles.*" searchPathRef="MDSDProfiles" failOnError="false"/>
+  <rm:locator pattern="^org\.modelversioning\.emfprofile.*" searchPathRef="MDSDProfiles" failOnError="false"/>
   <rm:locator pattern="^de\.uka\.ipd\.sdq\.feature.*" searchPathRef="FeatureModel" failOnError="false"/>
   <rm:locator pattern="^de\.uka\.ipd\.sdq\.workflow.*" searchPathRef="WorkflowEngine" failOnError="false"/>
   <rm:locator pattern="^de\.uka\.ipd\.sdq\.qvtrengine.*" searchPathRef="WorkflowEngine" failOnError="false"/>
