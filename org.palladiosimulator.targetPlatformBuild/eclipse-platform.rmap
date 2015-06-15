@@ -2,6 +2,7 @@
 <rm:rmap xmlns:bc="http://www.eclipse.org/buckminster/Common-1.0" xmlns:rm="http://www.eclipse.org/buckminster/RMap-1.0">
   <rm:locator searchPathRef="eclipse-updates" failOnError="false" />
   <rm:locator searchPathRef="eclipse-release" failOnError="false" />
+  <rm:locator searchPathRef="epp" failOnError="false" />
   <rm:locator searchPathRef="orbit" failOnError="false" />
 
   <rm:searchPath name="orbit">
@@ -16,15 +17,23 @@
   	<rm:provider componentTypes="osgi.bundle,eclipse.feature" readerType="p2" source="false" mutable="false">
 	 	<rm:property key="buckminster.source" value="false"/>
 	    <rm:property key="buckminster.mutable" value="false"/>
-	  	<rm:uri format="http://download.eclipse.org/releases/mars/"/>
+	  	<rm:uri format="http://download.eclipse.org/releases/luna/"/>
   	</rm:provider>
    </rm:searchPath>
    
    <rm:searchPath name="eclipse-updates">
         <rm:provider componentTypes="osgi.bundle,eclipse.feature"
             readerType="p2" source="false" mutable="false">
-            <rm:uri format="http://download.eclipse.org/eclipse/updates/4.5" />
+            <rm:uri format="http://download.eclipse.org/eclipse/updates/4.4" />
         </rm:provider>
     </rm:searchPath>
+    
+    <rm:searchPath name="epp">
+        <rm:provider componentTypes="osgi.bundle,eclipse.feature"
+            readerType="p2" source="false" mutable="false">
+            <rm:uri format="http://download.eclipse.org/technology/epp/packages/mars" />
+        </rm:provider>
+    </rm:searchPath>
+    
 
 </rm:rmap>
