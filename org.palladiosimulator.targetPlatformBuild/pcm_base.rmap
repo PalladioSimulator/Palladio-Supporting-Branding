@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rm:rmap xmlns:bc="http://www.eclipse.org/buckminster/Common-1.0" xmlns:rm="http://www.eclipse.org/buckminster/RMap-1.0">
+
+  <rm:locator pattern="^de\.uka\.ipd\.sdq\.pcm.*" searchPathRef="pcm" failOnError="false"/>
+  <rm:locator pattern="^org\.palladiosimulator\.mdsdprofiles.*" searchPathRef="MDSDProfiles" failOnError="false"/>
+  <rm:locator pattern="^de\.uka\.ipd\.sdq\.feature.*" searchPathRef="FeatureModel" failOnError="false"/>
+  <rm:locator pattern="^de\.uka\.ipd\.sdq\.workflow.*" searchPathRef="WorkflowEngine" failOnError="false"/>
+  <rm:locator pattern="^de\.uka\.ipd\.sdq\.qvtrengine.*" searchPathRef="WorkflowEngine" failOnError="false"/>
+  
+  <rm:redirect pattern=".*"
+		href="https://anonymous:anonymous@svnserver.informatik.kit.edu/i43/svn/code/Build/trunk/org.palladiosimulator.targetPlatformBuild/recorderframework.rmap" />
+
+  <rm:searchPath name="FeatureModel">
+    <rm:provider componentTypes="osgi.bundle,eclipse.feature,buckminster" readerType="p2" source="false" mutable="false">
+      <rm:property key="buckminster.source" value="false"/>
+      <rm:property key="buckminster.mutable" value="false"/>
+      <rm:uri format="https://sdqweb.ipd.kit.edu/eclipse/pcm/nightly/"/>
+    </rm:provider>
+  </rm:searchPath>
+
+  <rm:searchPath name="FeatureModel">
+    <rm:provider componentTypes="osgi.bundle,eclipse.feature,buckminster" readerType="p2" source="false" mutable="false">
+      <rm:property key="buckminster.source" value="false"/>
+      <rm:property key="buckminster.mutable" value="false"/>
+      <rm:uri format="https://sdqweb.ipd.kit.edu/eclipse/featuremodel/nightly/"/>
+    </rm:provider>
+  </rm:searchPath>
+
+  <rm:searchPath name="WorkflowEngine">
+    <rm:provider componentTypes="osgi.bundle,eclipse.feature,buckminster" readerType="p2" source="false" mutable="false">
+      <rm:property key="buckminster.source" value="false"/>
+      <rm:property key="buckminster.mutable" value="false"/>
+      <rm:uri format="https://sdqweb.ipd.kit.edu/eclipse/workflowengine/nightly/"/>
+    </rm:provider>
+  </rm:searchPath>
+
+  <rm:searchPath name="MDSDProfiles">
+    <rm:provider componentTypes="osgi.bundle,eclipse.feature" readerType="p2" source="false" mutable="false">
+      <rm:property key="buckminster.source" value="false"/>
+      <rm:property key="buckminster.mutable" value="false"/>
+      <rm:uri format="https://sdqweb.ipd.kit.edu/eclipse/mdsdprofiles/nightly/"/>
+    </rm:provider>
+  </rm:searchPath>
+
+</rm:rmap>
