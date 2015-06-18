@@ -3,7 +3,8 @@
 
   <rm:locator pattern="^de\.uka\.ipd\.sdq\..*" searchPathRef="pcm" failOnError="false"/>
   <rm:locator pattern="^de\.fzi\.se.*" searchPathRef="pcm" failOnError="false"/>
-  <rm:locator pattern="^org\.palladiosimulator\.((?!license).)*" searchPathRef="pcm" failOnError="false"/>
+  <rm:locator pattern="^org\.palladiosimulator\.branding.*$" searchPathRef="pcm" failOnError="false"/>
+  <rm:locator pattern="^org\.palladiosimulator\.pcm.*$" searchPathRef="pcm" failOnError="false"/>
   <rm:locator pattern="^org\.palladiosimulator\.mdsdprofiles.*" searchPathRef="MDSDProfiles" failOnError="false"/>
   <rm:locator pattern="^org\.modelversioning\.emfprofile.*" searchPathRef="MDSDProfiles" failOnError="false"/>
   <rm:locator pattern="^de\.uka\.ipd\.sdq\.feature.*" searchPathRef="FeatureModel" failOnError="false"/>
