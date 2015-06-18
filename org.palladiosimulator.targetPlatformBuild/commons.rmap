@@ -12,6 +12,7 @@
   <rm:locator pattern="^org\.hibernate.*" searchPathRef="thirdparty" failOnError="false"/>  
   <rm:locator pattern="^org\.rosuda.*" searchPathRef="thirdparty" failOnError="false"/>
   <rm:locator pattern="^org\.opt4j.*" searchPathRef="thirdparty" failOnError="false"/>
+  <rm:locator pattern="^co\.umontreal\.iro.*" searchPathRef="thirdparty" failOnError="false"/>
 
   <rm:redirect pattern=".*" href="https://anonymous:anonymous@svnserver.informatik.kit.edu/i43/svn/code/Build/trunk/org.palladiosimulator.targetPlatformBuild/eclipse-platform.rmap"/>
 
