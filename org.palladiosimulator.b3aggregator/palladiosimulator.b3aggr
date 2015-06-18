@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aggregator:Aggregation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" buildmaster="//@contacts[email='steffen.becker@informatik.tu-chemnitz.de']" label="Palladio Simulator P2 Repositoy" buildRoot="${user.home}/tmp_build">
+  <validationSets label="Palladio Core Features">
+    <contributions label="Palladio Commons Features">
+      <repositories location="https://sdqweb.ipd.kit.edu/eclipse/commons/nightly"/>
+      <repositories location="http://sdqweb.ipd.kit.edu/eclipse/thirdpartywrapper/nightly"/>
+    </contributions>
+    <contributions label="Recorderframework">
+      <repositories location="http://sdqweb.ipd.kit.edu/eclipse/measurementframework/nightly"/>
+      <repositories location="http://sdqweb.ipd.kit.edu/eclipse/metricspec/nightly"/>
+      <repositories location="http://sdqweb.ipd.kit.edu/eclipse/edp2/nightly"/>
+      <repositories location="http://sdqweb.ipd.kit.edu/eclipse/sensorframework/nightly"/>
+      <repositories location="http://sdqweb.ipd.kit.edu/eclipse/probeframework/nightly"/>
+      <repositories location="http://sdqweb.ipd.kit.edu/eclipse/recorderframework/nightly"/>
+    </contributions>
+    <contributions label="Palladio Core">
+      <repositories location="https://sdqweb.ipd.kit.edu/eclipse/palladio/nightly">
+        <features name="de.uka.ipd.sdq.pcm.diagram.feature.feature.group" categories="//@customCategories[identifier='org.palladiosimulator.corefeatures.category']"/>
+        <features name="de.uka.ipd.sdq.pcm.feature.feature.group" categories="//@customCategories[identifier='org.palladiosimulator.corefeatures.category']"/>
+        <features name="de.uka.ipd.sdq.pcmsolver.feature.feature.group" categories="//@customCategories[identifier='org.palladiosimulator.corefeatures.category']"/>
+        <features name="de.uka.ipd.sdq.simucom.feature.feature.group" categories="//@customCategories[identifier='org.palladiosimulator.corefeatures.category']"/>
+      </repositories>
+      <repositories location="https://sdqweb.ipd.kit.edu/eclipse/featuremodel/nightly"/>
+      <repositories location="https://sdqweb.ipd.kit.edu/eclipse/workflowengine/nightly"/>
+      <repositories location="https://sdqweb.ipd.kit.edu/eclipse/mdsdprofiles/nightly"/>
+      <repositories location="https://sdqweb.ipd.kit.edu/eclipse/protocom/nightly">
+        <features name="org.palladiosimulator.protocom.feature.feature.group" categories="//@customCategories[identifier='org.palladiosimulator.corefeatures.category']"/>
+        <features name="org.palladiosimulator.protocom.javaee.feature.feature.group" categories="//@customCategories[identifier='org.palladiosimulator.corefeatures.category']"/>
+      </repositories>
+    </contributions>
+    <contributions label="Luna Platform">
+      <repositories location="http://download.eclipse.org/tools/orbit/downloads/drops/R20150519210750/repository/">
+        <bundles name="org.apache.commons.math"/>
+        <bundles name="org.antlr.runtime" versionRange="[0.0.0,3.2.0]"/>
+        <bundles name="javax.websocket"/>
+      </repositories>
+    </contributions>
+    <contributions label="xText Updates">
+      <repositories location="http://download.eclipse.org/modeling/tmf/xtext/updates/composite/releases" mirrorArtifacts="false">
+        <features name="org.eclipse.xtext.xbase.lib.feature.group"/>
+      </repositories>
+    </contributions>
+    <validationRepositories location="http://download.eclipse.org/eclipse/updates/4.4"/>
+    <validationRepositories location="http://download.eclipse.org/releases/luna/"/>
+  </validationSets>
+  <configurations architecture="x86_64"/>
+  <configurations/>
+  <configurations operatingSystem="macosx" windowSystem="cocoa" architecture="x86_64"/>
+  <configurations operatingSystem="linux" windowSystem="gtk" architecture="x86_64"/>
+  <customCategories identifier="org.palladiosimulator.corefeatures.category" label="Palladio Bench Core Features" description="This category contains all features which belong to a complete installation of the Palladio Bench Core Features" features="//@validationSets[label='Palladio%20Core%20Features']/@contributions[label='Palladio%20Core']/@repositories.0/@features.0 //@validationSets[label='Palladio%20Core%20Features']/@contributions[label='Palladio%20Core']/@repositories.0/@features.1 //@validationSets[label='Palladio%20Core%20Features']/@contributions[label='Palladio%20Core']/@repositories.0/@features.2 //@validationSets[label='Palladio%20Core%20Features']/@contributions[label='Palladio%20Core']/@repositories.0/@features.3 //@validationSets[label='Palladio%20Core%20Features']/@contributions[label='Palladio%20Core']/@repositories.4/@features.0 //@validationSets[label='Palladio%20Core%20Features']/@contributions[label='Palladio%20Core']/@repositories.4/@features.1"/>
+  <contacts name="Steffen Becker" email="steffen.becker@informatik.tu-chemnitz.de"/>
+</aggregator:Aggregation>
