@@ -27,7 +27,9 @@
         <features name="org.palladiosimulator.protocom.feature.feature.group" categories="//@customCategories[identifier='org.palladiosimulator.corefeatures.category']"/>
         <features name="org.palladiosimulator.protocom.javaee.feature.feature.group" categories="//@customCategories[identifier='org.palladiosimulator.corefeatures.category']"/>
       </repositories>
-      <repositories location="http://www.modelversioning.org/emf-profiles-updatesite/" mirrorArtifacts="false"/>
+      <repositories location="http://www.modelversioning.org/emf-profiles-updatesite/" mirrorArtifacts="false">
+        <features name="org.modelversioning.emfprofile.feature.feature.group"/>
+      </repositories>
     </contributions>
     <contributions label="Luna Platform">
       <repositories location="http://download.eclipse.org/tools/orbit/downloads/drops/R20150519210750/repository/">
