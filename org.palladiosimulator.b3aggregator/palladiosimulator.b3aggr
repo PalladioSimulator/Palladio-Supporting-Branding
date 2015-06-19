@@ -41,6 +41,7 @@
         <features name="de.uka.ipd.sdq.dsexplore.feature.feature.group" categories="//@customCategories[identifier='org.palladiosimulator.corefeatures.category']"/>
         <features name="de.uka.ipd.sdq.dsexplore.source.feature.feature.group" categories="//@customCategories[identifier='org.palladiosimulator.core.source.category']"/>
       </repositories>
+      <repositories location="https://sdqweb.ipd.kit.edu/eclipse/monitorrepository/nightly/"/>
     </contributions>
     <contributions label="Luna Platform">
       <repositories location="http://download.eclipse.org/tools/orbit/downloads/drops/R20150519210750/repository/">
