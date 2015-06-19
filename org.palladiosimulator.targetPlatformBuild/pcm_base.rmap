@@ -7,7 +7,7 @@
   <rm:locator pattern="^org\.palladiosimulator\.branding.*$" searchPathRef="pcm" failOnError="false"/>
   <rm:locator pattern="^org\.palladiosimulator\.pcm.*$" searchPathRef="pcm" failOnError="false"/>
   <rm:locator pattern="^org\.palladiosimulator\.mdsdprofiles.*" searchPathRef="MDSDProfiles" failOnError="false"/>
-  <rm:locator pattern="^org\.modelversioning\.emfprofile.*" searchPathRef="MDSDProfiles" failOnError="false"/>
+  <rm:locator pattern="^org\.modelversioning\.emfprofile.*" searchPathRef="EMFProfiles" failOnError="false"/>
   <rm:locator pattern="^de\.uka\.ipd\.sdq\.feature.*" searchPathRef="FeatureModel" failOnError="false"/>
   <rm:locator pattern="^de\.uka\.ipd\.sdq\.workflow.*" searchPathRef="WorkflowEngine" failOnError="false"/>
   <rm:locator pattern="^de\.uka\.ipd\.sdq\.qvtrengine.*" searchPathRef="WorkflowEngine" failOnError="false"/>
@@ -36,6 +36,12 @@
   <rm:searchPath name="MDSDProfiles">
     <rm:provider componentTypes="osgi.bundle,eclipse.feature" readerType="p2" source="false" mutable="false">
       <rm:uri format="https://sdqweb.ipd.kit.edu/eclipse/mdsdprofiles/nightly/"/>
+    </rm:provider>
+  </rm:searchPath>
+  
+  <rm:searchPath name="EMFProfiles">
+    <rm:provider componentTypes="osgi.bundle,eclipse.feature" readerType="p2" source="false" mutable="false">
+      <rm:uri format="http://www.modelversioning.org/emf-profiles-updatesite/"/>
     </rm:provider>
   </rm:searchPath>
 
