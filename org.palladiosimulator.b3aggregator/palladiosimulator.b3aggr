@@ -78,7 +78,14 @@
       <repositories location="http://se2.informatik.uni-wuerzburg.de/eclipse/limbo/">
         <features name="LIMBO_DLIM.feature.group"/>
       </repositories>
-      <repositories location="https://sdqweb.ipd.kit.edu/eclipse/storydiagraminterpreter/nightly/"/>
+      <repositories location="https://sdqweb.ipd.kit.edu/eclipse/storydiagraminterpreter/nightly/">
+        <features name="de.mdelab.sdm.interpreter.common.feature.feature.group" versionRange="1.0.0.201506210818"/>
+        <features name="de.mdelab.sdm.interpreter.core.feature.feature.group" versionRange="1.0.0.201506210818"/>
+        <features name="org.storydriven.storydiagrams.buckminster.feature.group" versionRange="1.0.0.201506210818-521cNN8n-7MAGeAkMGAwGw"/>
+        <features name="org.storydriven.storydiagrams.diagram.feature.feature.group" versionRange="1.0.1.201506210818"/>
+        <features name="org.storydriven.storydiagrams.editor.feature.feature.group" versionRange="1.0.1.201506210818"/>
+        <features name="org.storydriven.storydiagrams.interpreter.feature.feature.group" versionRange="1.0.1.201506210818"/>
+      </repositories>
       <repositories location="https://sdqweb.ipd.kit.edu/eclipse/experimentautomation/nightly/">
         <features name="org.palladiosimulator.experimentautomation.application.feature.feature.group" versionRange="1.0.0.201506182016" categories="//@customCategories[identifier='org.palladiosimulator.addons.category']"/>
         <features name="org.palladiosimulator.experimentautomation.application.tooladapter.simucom.feature.feature.group" versionRange="1.0.0.201506182016" categories="//@customCategories[identifier='org.palladiosimulator.addons.category']"/>
