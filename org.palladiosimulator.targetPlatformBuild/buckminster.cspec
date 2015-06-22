@@ -4,5 +4,7 @@
         <cs:dependency name="org.eclipse.epp.package.modeling.feature" componentType="eclipse.feature"/>
         <cs:dependency name="org.eclipse.equinox.executable" componentType="eclipse.feature"/>
         <cs:dependency name="org.eclipse.equinox.p2.user.ui" componentType="eclipse.feature"/>
+        <cs:dependency name="org.eclipse.rcp" componentType="eclipse.feature"/>
+        <cs:dependency name="org.eclipse.rcp.source" componentType="eclipse.feature"/>
     </cs:dependencies>
 </cs:cspec>
