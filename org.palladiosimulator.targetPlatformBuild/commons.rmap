@@ -14,6 +14,7 @@
   <rm:locator pattern="^org\.rosuda.*" searchPathRef="thirdparty" failOnError="false"/>
   <rm:locator pattern="^org\.opt4j.*" searchPathRef="thirdparty" failOnError="false"/>
   <rm:locator pattern="^ca\.umontreal\.iro.*" searchPathRef="thirdparty" failOnError="false"/>
+  <rm:locator pattern="^de\.desmoj.*" searchPathRef="thirdparty" failOnError="false"/>
 
   <rm:redirect pattern=".*" href="https://anonymous:anonymous@svnserver.informatik.kit.edu/i43/svn/code/Build/trunk/org.palladiosimulator.targetPlatformBuild/eclipse-platform.rmap"/>
 
