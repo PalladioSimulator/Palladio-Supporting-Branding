@@ -15,7 +15,7 @@
   
    <rm:searchPath name="eclipse-release">
   	<rm:provider componentTypes="osgi.bundle,eclipse.feature" readerType="p2" source="false" mutable="false">
-	  	<rm:uri format="http://download.eclipse.org/releases/luna/"/>
+	  	<rm:uri format="file:/var/lib/jenkins/eclipse/p2.mirrors/luna"/>
   	</rm:provider>
    </rm:searchPath>
    
