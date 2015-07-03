@@ -42,8 +42,8 @@
         <features name="org.palladiosimulator.protocom.source.feature.feature.group" versionRange="4.0.0.201506252055" categories="//@customCategories[identifier='org.palladiosimulator.core.source.category']"/>
       </repositories>
       <repositories location="https://sdqweb.ipd.kit.edu/eclipse/palladio/analyzer/reliability/nightly/">
-        <features name="org.palladiosimulator.reliability.feature.feature.group" versionRange="3.5.0.201506251319" categories="//@customCategories[identifier='org.palladiosimulator.corefeatures.category']"/>
-        <features name="org.palladiosimulator.reliability.source.feature.feature.group" versionRange="3.5.0.201506251319" categories="//@customCategories[identifier='org.palladiosimulator.core.source.category']"/>
+        <features name="org.palladiosimulator.reliability.feature.feature.group" versionRange="1.0.0.201506251319" categories="//@customCategories[identifier='org.palladiosimulator.corefeatures.category']"/>
+        <features name="org.palladiosimulator.reliability.source.feature.feature.group" versionRange="1.0.0.201506251319" categories="//@customCategories[identifier='org.palladiosimulator.core.source.category']"/>
       </repositories>
       <repositories location="https://sdqweb.ipd.kit.edu/eclipse/palladio/analyzer/simucom/nightly/">
         <features name="org.palladiosimulator.simucom.feature.feature.group" versionRange="4.0.0.201506251820" categories="//@customCategories[identifier='org.palladiosimulator.corefeatures.category']"/>
