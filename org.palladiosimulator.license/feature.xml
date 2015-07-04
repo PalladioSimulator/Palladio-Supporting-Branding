@@ -2,8 +2,7 @@
 <feature
       id="org.palladiosimulator.license"
       version="1.0.0"
-      provider-name="%providerName"
-      plugin="org.palladiosimulator.branding">
+      provider-name="%providerName">
 
    <copyright url="%copyrightURL">
       %copyright
@@ -12,12 +11,5 @@
    <license url="%licenseURL">
       %license
    </license>
-
-   <plugin
-         id="org.palladiosimulator.branding"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
 
 </feature>

@@ -5,8 +5,11 @@ Author: Sebastian Lehrig
 Date: 2015/06/16
 
 Other features using this feature as a "shared license" will "inherit" the attributes
-configured in the feature.properties file. Such an inheritance does not work for the
-"sites to visit" attribute.
+configured in the feature.properties file.
+
+Limitations:
+- Does not work for the "sites to visit" attribute
+- Does not work for branding
 
 Additional information about shared licenses are here:
 http://relengofthenerds.blogspot.de/2011/01/implementing-shared-licenses-with-37m5.html
