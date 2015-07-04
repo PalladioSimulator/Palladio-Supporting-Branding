@@ -1,6 +1,6 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
-Bundle-Name: Palladio Branding Plugin
+Bundle-Name: Palladio Simulator
 Bundle-SymbolicName: org.palladiosimulator.branding;singleton:=true
 Bundle-Version: 1.0.0
 Bundle-Vendor: palladiosimulator.org
