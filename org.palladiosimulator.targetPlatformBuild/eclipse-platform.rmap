@@ -19,28 +19,28 @@
   
    <rm:searchPath name="eclipse-release-mirror">
   	<rm:provider resolutionFilter="(sdq.use.p2mirror=true)" componentTypes="osgi.bundle,eclipse.feature" readerType="p2" source="false" mutable="false">
-	  	<rm:uri format="file:/var/lib/jenkins/eclipse/p2.mirrors/luna"/>
+	  	<rm:uri format="file:/var/lib/jenkins/eclipse/p2.mirrors/mars"/>
   	</rm:provider>
    </rm:searchPath>
    
    <rm:searchPath name="eclipse-release">
         <rm:provider componentTypes="osgi.bundle,eclipse.feature"
             readerType="p2" source="false" mutable="false">
-            <rm:uri format="http://download.eclipse.org/releases/luna" />
+            <rm:uri format="http://download.eclipse.org/releases/mars" />
         </rm:provider>
    </rm:searchPath>
    
    <rm:searchPath name="eclipse-updates">
         <rm:provider componentTypes="osgi.bundle,eclipse.feature"
             readerType="p2" source="false" mutable="false">
-            <rm:uri format="http://download.eclipse.org/eclipse/updates/4.4" />
+            <rm:uri format="http://download.eclipse.org/eclipse/updates/4.5" />
         </rm:provider>
     </rm:searchPath>
     
     <rm:searchPath name="epp">
         <rm:provider componentTypes="osgi.bundle,eclipse.feature"
             readerType="p2" source="false" mutable="false">
-            <rm:uri format="http://download.eclipse.org/technology/epp/packages/luna" />
+            <rm:uri format="http://download.eclipse.org/technology/epp/packages/mars" />
         </rm:provider>
     </rm:searchPath>
     
