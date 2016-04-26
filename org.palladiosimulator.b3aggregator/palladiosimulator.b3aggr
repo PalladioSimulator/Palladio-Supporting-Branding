@@ -126,6 +126,9 @@
         <features name="org.somox.source.feature.feature.group" versionRange="1.1.0.201507031913-7u9D7jcKtwk-312618142_24"/>
       </repositories>
     </contributions>
+    <contributions description="Henshin" label="Henshin">
+      <repositories location="http://download.eclipse.org/modeling/emft/henshin/updates/release" mirrorArtifacts="false"/>
+    </contributions>
     <validationRepositories location="http://download.eclipse.org/eclipse/updates/4.5"/>
     <validationRepositories location="http://download.eclipse.org/releases/mars/"/>
   </validationSets>
