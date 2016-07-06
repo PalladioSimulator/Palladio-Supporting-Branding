@@ -57,6 +57,7 @@
         <features name="de.uka.ipd.sdq.dsexplore.feature.feature.group" versionRange="3.3.0.201506251851" categories="//@customCategories[identifier='org.palladiosimulator.corefeatures.category']"/>
         <features name="de.uka.ipd.sdq.dsexplore.source.feature.feature.group" versionRange="3.3.0.201506251851" categories="//@customCategories[identifier='org.palladiosimulator.core.source.category']"/>
       </repositories>
+      <repositories location="https://sdqweb.ipd.kit.edu/eclipse/architecturaltemplates/nightly/"/>
     </contributions>
     <contributions label="Luna Platform">
       <repositories location="http://download.eclipse.org/tools/orbit/downloads/drops/R20150519210750/repository/">
