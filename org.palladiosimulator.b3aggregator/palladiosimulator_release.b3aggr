@@ -26,9 +26,9 @@
         <features name="org.palladiosimulator.pcm.source.feature.feature.group" versionRange="1.0.0.201506251444" categories="//@customCategories[identifier='org.palladiosimulator.core.source.category']"/>
       </repositories>
       <repositories location="https://sdqweb.ipd.kit.edu/eclipse/palladio/core/editors/releases/latest/">
-        <features name="org.palladiosimulator.editors.gmf.feature.feature.group" versionRange="1.0.0.201506241854" categories="//@customCategories[identifier='org.palladiosimulator.corefeatures.category']"/>
+        <features name="org.palladiosimulator.editors.feature.feature.group" versionRange="1.0.0.201506241854" categories="//@customCategories[identifier='org.palladiosimulator.corefeatures.category']"/>
         <features name="org.palladiosimulator.editors.tree.feature.feature.group" versionRange="1.0.0.201506241854" categories="//@customCategories[identifier='org.palladiosimulator.corefeatures.category']"/>
-        <features name="org.palladiosimulator.editors.gmf.source.feature.feature.group" versionRange="1.0.0.201506241854" categories="//@customCategories[identifier='org.palladiosimulator.core.source.category']"/>
+        <features name="org.palladiosimulator.editors.source.feature.feature.group" versionRange="1.0.0.201506241854" categories="//@customCategories[identifier='org.palladiosimulator.core.source.category']"/>
         <features name="org.palladiosimulator.editors.tree.source.feature.feature.group" versionRange="1.0.0.201506241854" categories="//@customCategories[identifier='org.palladiosimulator.core.source.category']"/>
       </repositories>
       <repositories location="https://sdqweb.ipd.kit.edu/eclipse/palladio/analyzer/framework/releases/latest/">
@@ -57,6 +57,7 @@
         <features name="de.uka.ipd.sdq.dsexplore.feature.feature.group" versionRange="3.3.0.201506251851" categories="//@customCategories[identifier='org.palladiosimulator.corefeatures.category']"/>
         <features name="de.uka.ipd.sdq.dsexplore.source.feature.feature.group" versionRange="3.3.0.201506251851" categories="//@customCategories[identifier='org.palladiosimulator.core.source.category']"/>
       </repositories>
+      <repositories location="https://sdqweb.ipd.kit.edu/eclipse/architecturaltemplates/releases/latest/"/>
     </contributions>
     <contributions label="Luna Platform">
       <repositories location="http://download.eclipse.org/tools/orbit/downloads/drops/R20150519210750/repository/">
@@ -125,6 +126,9 @@
         <features name="org.somox.modisco.source.feature.feature.group" versionRange="1.1.0.201507031913"/>
         <features name="org.somox.source.feature.feature.group" versionRange="1.1.0.201507031913-7u9D7jcKtwk-312618142_24"/>
       </repositories>
+    </contributions>
+    <contributions description="Henshin" label="Henshin">
+      <repositories location="http://download.eclipse.org/modeling/emft/henshin/updates/release" mirrorArtifacts="false"/>
     </contributions>
     <validationRepositories location="http://download.eclipse.org/eclipse/updates/4.5"/>
     <validationRepositories location="http://download.eclipse.org/releases/mars/"/>
