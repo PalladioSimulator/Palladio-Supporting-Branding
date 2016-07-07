@@ -26,7 +26,7 @@
         <features name="org.palladiosimulator.pcm.source.feature.feature.group" versionRange="1.0.0.201506251444" categories="//@customCategories[identifier='org.palladiosimulator.core.source.category']"/>
       </repositories>
       <repositories location="https://sdqweb.ipd.kit.edu/eclipse/palladio/core/editors/nightly/">
-        <features name="org.palladiosimulator.editors.feature.feature.group" versionRange="1.0.0.201506241854" categories="//@customCategories[identifier='org.palladiosimulator.corefeatures.category']"/>
+        <features name="org.palladiosimulator.editors.sirius.feature.feature.group" versionRange="1.0.0.201506241854" categories="//@customCategories[identifier='org.palladiosimulator.corefeatures.category']"/>
         <features name="org.palladiosimulator.editors.tree.feature.feature.group" versionRange="1.0.0.201506241854" categories="//@customCategories[identifier='org.palladiosimulator.corefeatures.category']"/>
         <features name="org.palladiosimulator.editors.source.feature.feature.group" versionRange="1.0.0.201506241854" categories="//@customCategories[identifier='org.palladiosimulator.core.source.category']"/>
         <features name="org.palladiosimulator.editors.tree.source.feature.feature.group" versionRange="1.0.0.201506241854" categories="//@customCategories[identifier='org.palladiosimulator.core.source.category']"/>
