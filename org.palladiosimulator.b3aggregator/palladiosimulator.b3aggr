@@ -21,11 +21,11 @@
         <features name="org.modelversioning.emfprofile.feature.feature.group"/>
       </repositories>
       <repositories location="https://sdqweb.ipd.kit.edu/eclipse/monitorrepository/nightly/"/>
-      <repositories location="https://sdqweb.ipd.kit.edu/eclipse/palladio/core/pcm/nightly/">
+      <repositories location="https://sdqweb.ipd.kit.edu/eclipse/palladio/pcm/nightly/">
         <features name="org.palladiosimulator.pcm.feature.feature.group" versionRange="1.0.0.201506251444" categories="//@customCategories[identifier='org.palladiosimulator.corefeatures.category']"/>
         <features name="org.palladiosimulator.pcm.source.feature.feature.group" versionRange="1.0.0.201506251444" categories="//@customCategories[identifier='org.palladiosimulator.core.source.category']"/>
       </repositories>
-      <repositories location="https://sdqweb.ipd.kit.edu/eclipse/palladio/core/editors/nightly/">
+      <repositories location="https://sdqweb.ipd.kit.edu/eclipse/palladio/editors/sirius/nightly/">
         <features name="org.palladiosimulator.editors.sirius.feature.feature.group" versionRange="1.0.0.201506241854" categories="//@customCategories[identifier='org.palladiosimulator.corefeatures.category']"/>
         <features name="org.palladiosimulator.editors.tree.feature.feature.group" versionRange="1.0.0.201506241854" categories="//@customCategories[identifier='org.palladiosimulator.corefeatures.category']"/>
         <features name="org.palladiosimulator.editors.sirius.source.feature.feature.group" versionRange="1.0.0.201506241854" categories="//@customCategories[identifier='org.palladiosimulator.core.source.category']"/>
@@ -58,6 +58,9 @@
         <features name="de.uka.ipd.sdq.dsexplore.source.feature.feature.group" versionRange="3.3.0.201506251851" categories="//@customCategories[identifier='org.palladiosimulator.core.source.category']"/>
       </repositories>
       <repositories location="https://sdqweb.ipd.kit.edu/eclipse/architecturaltemplates/nightly/"/>
+      <repositories location="https://sdqweb.ipd.kit.edu/eclipse/palladio/editors/commons/nightly/"/>
+      <repositories location="https://sdqweb.ipd.kit.edu/eclipse/palladio/editors/tree/nightly/"/>
+      <repositories location="https://sdqweb.ipd.kit.edu/eclipse/palladio/editors/gmf/nightly/"/>
     </contributions>
     <contributions label="Luna Platform">
       <repositories location="http://download.eclipse.org/tools/orbit/downloads/drops/R20150519210750/repository/">
