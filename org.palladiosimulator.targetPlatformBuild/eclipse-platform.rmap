@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rm:rmap xmlns:bc="http://www.eclipse.org/buckminster/Common-1.0" xmlns:rm="http://www.eclipse.org/buckminster/RMap-1.0">
 
-  <rm:property key="sdq.use.p2mirror" value="false"/>
+  <rm:property key="sdq.use.p2mirror" value="true"/>
 
   <rm:locator searchPathRef="eclipse-updates" failOnError="false" />
   <rm:locator searchPathRef="eclipse-release-mirror" failOnError="false" />
@@ -17,7 +17,7 @@
   
    <rm:searchPath name="eclipse-release-mirror">
   	<rm:provider resolutionFilter="(sdq.use.p2mirror=true)" componentTypes="osgi.bundle,eclipse.feature" readerType="p2" source="false" mutable="false">
-	  	<rm:uri format="file:/var/lib/jenkins/eclipse/p2.mirrors/mars"/>
+	  	<rm:uri format="file:/var/lib/jenkins/eclipse/p2.mirrors/neon"/>
   	</rm:provider>
    </rm:searchPath>
    
