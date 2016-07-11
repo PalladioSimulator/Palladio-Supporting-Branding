@@ -20,9 +20,6 @@
   	<rm:provider resolutionFilter="(&amp;(sdq.use.p2mirror=true)(resolveFrom=nightly))" componentTypes="osgi.bundle,eclipse.feature" readerType="p2" source="false" mutable="false">
 	  	<rm:uri format="file:/var/lib/jenkins/eclipse/p2.mirrors/neon"/>
   	</rm:provider>
-  	<rm:provider resolutionFilter="(&amp;(sdq.use.p2mirror=true)(resolveFrom=release))" componentTypes="osgi.bundle,eclipse.feature" readerType="p2" source="false" mutable="false">
-	  	<rm:uri format="file:/var/lib/jenkins/eclipse/p2.mirrors/luna"/>
-  	</rm:provider>
    </rm:searchPath>
    
    <rm:searchPath name="eclipse-release">
@@ -30,7 +27,7 @@
             <rm:uri format="http://download.eclipse.org/releases/neon" />
         </rm:provider>
         <rm:provider resolutionFilter="(resolveFrom=release)" componentTypes="osgi.bundle,eclipse.feature" readerType="p2" source="false" mutable="false">
-            <rm:uri format="http://download.eclipse.org/releases/luna" />
+            <rm:uri format="http://download.eclipse.org/releases/mars" />
         </rm:provider>
    </rm:searchPath>
    
@@ -39,7 +36,7 @@
             <rm:uri format="http://download.eclipse.org/eclipse/updates/4.6" />
         </rm:provider>
         <rm:provider resolutionFilter="(resolveFrom=release)" componentTypes="osgi.bundle,eclipse.feature" readerType="p2" source="false" mutable="false">
-            <rm:uri format="http://download.eclipse.org/eclipse/updates/4.4" />
+            <rm:uri format="http://download.eclipse.org/eclipse/updates/4.5" />
         </rm:provider>
     </rm:searchPath>
     
@@ -48,7 +45,7 @@
             <rm:uri format="http://download.eclipse.org/technology/epp/packages/neon" />
         </rm:provider>
         <rm:provider resolutionFilter="(resolveFrom=release)" componentTypes="osgi.bundle,eclipse.feature" readerType="p2" source="false" mutable="false">
-            <rm:uri format="http://download.eclipse.org/technology/epp/packages/luna" />
+            <rm:uri format="http://download.eclipse.org/technology/epp/packages/mars" />
         </rm:provider>
     </rm:searchPath>
 
