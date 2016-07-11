@@ -66,7 +66,7 @@
     <contributions label="Luna Platform">
       <repositories location="http://download.eclipse.org/tools/orbit/downloads/drops/R20160520211859/repository/">
         <bundles name="org.apache.commons.math"/>
-        <bundles name="org.antlr.runtime" versionRange="[0.0.0,3.2.0]"/>
+        <bundles name="org.antlr.runtime" versionRange="[3.2.0,3.3.0)"/>
         <bundles name="javax.websocket"/>
       </repositories>
     </contributions>
