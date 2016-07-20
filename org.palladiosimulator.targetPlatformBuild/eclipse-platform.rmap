@@ -2,7 +2,7 @@
 <rm:rmap xmlns:bc="http://www.eclipse.org/buckminster/Common-1.0" xmlns:rm="http://www.eclipse.org/buckminster/RMap-1.0">
 
   <rm:property key="sdq.use.p2mirror" value="true"/>
-  <rm:property key="resolveFrom" value="nightly"/>
+  <rm:property key="resolveFrom" value="release"/>
 
   <rm:locator searchPathRef="eclipse-updates" failOnError="false" />
   <rm:locator searchPathRef="eclipse-release-mirror" failOnError="false" />
