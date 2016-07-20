@@ -17,6 +17,9 @@
   </rm:searchPath>
   
    <rm:searchPath name="eclipse-release-mirror">
+  	<rm:provider resolutionFilter="(&amp;(sdq.use.p2mirror=true)(resolveFrom=nightly))" componentTypes="osgi.bundle,eclipse.feature" readerType="p2" source="false" mutable="false">
+	  	<rm:uri format="file:/var/lib/jenkins/eclipse/p2.mirrors/neon"/>
+  	</rm:provider>
   	<rm:provider resolutionFilter="(&amp;(sdq.use.p2mirror=true)(resolveFrom=release))" componentTypes="osgi.bundle,eclipse.feature" readerType="p2" source="false" mutable="false">
 	  	<rm:uri format="file:/var/lib/jenkins/eclipse/p2.mirrors/mars"/>
   	</rm:provider>
