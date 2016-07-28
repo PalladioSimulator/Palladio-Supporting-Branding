@@ -65,8 +65,8 @@
         <features name="org.palladiosimulator.editors.tree.source.feature.feature.group" versionRange="4.0.1.201607200503" categories="//@customCategories[identifier='org.palladiosimulator.core.source.category']"/>
       </repositories>
       <repositories location="https://sdqweb.ipd.kit.edu/eclipse/palladio/editors/gmf/releases/latest/">
-        <features name="org.palladiosimulator.editors.gmf.feature.feature.group" versionRange="4.0.1.201607110911" categories="//@customCategories[identifier='org.palladiosimulator.corefeatures.category']"/>
-        <features name="org.palladiosimulator.editors.gmf.source.feature.feature.group" versionRange="4.0.1.201607110911" categories="//@customCategories[identifier='org.palladiosimulator.core.source.category']"/>
+        <features name="org.palladiosimulator.editors.gmf.feature.feature.group" versionRange="[4.0.0,5.0.0)" categories="//@customCategories[identifier='org.palladiosimulator.corefeatures.category']"/>
+        <features name="org.palladiosimulator.editors.gmf.source.feature.feature.group" versionRange="[4.0.0,5.0.0)" categories="//@customCategories[identifier='org.palladiosimulator.core.source.category']"/>
       </repositories>
     </contributions>
     <contributions label="Luna Platform">
