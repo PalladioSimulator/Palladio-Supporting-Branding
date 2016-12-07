@@ -17,7 +17,7 @@
       <repositories location="https://sdqweb.ipd.kit.edu/eclipse/featuremodel/nightly"/>
       <repositories location="https://sdqweb.ipd.kit.edu/eclipse/workflowengine/nightly"/>
       <repositories location="https://sdqweb.ipd.kit.edu/eclipse/mdsdprofiles/nightly"/>
-      <repositories location="https://sdqweb.ipd.kit.edu/eclipse/emf-profiles/nightly/" mirrorArtifacts="false">
+      <repositories location="https://sdqweb.ipd.kit.edu/eclipse/emf-profiles/nightly/">
         <features name="org.modelversioning.emfprofile.feature.feature.group"/>
       </repositories>
       <repositories location="https://sdqweb.ipd.kit.edu/eclipse/monitorrepository/nightly/"/>
