@@ -12,6 +12,7 @@
       <repositories location="https://sdqweb.ipd.kit.edu/eclipse/sensorframework/nightly"/>
       <repositories location="https://sdqweb.ipd.kit.edu/eclipse/probeframework/nightly"/>
       <repositories location="https://sdqweb.ipd.kit.edu/eclipse/recorderframework/nightly"/>
+      <repositories location="https://sdqweb.ipd.kit.edu/eclipse/palladio/addons/experimentanalysis/nightly/"/>
     </contributions>
     <contributions label="Palladio Core">
       <repositories location="https://sdqweb.ipd.kit.edu/eclipse/featuremodel/nightly"/>
