@@ -9,7 +9,6 @@
   <rm:locator searchPathRef="eclipse-release" failOnError="false" />
   <rm:locator searchPathRef="epp" failOnError="false" />
   <rm:locator searchPathRef="orbit" failOnError="false" />
-  <rm:locator pattern="^org\.eclipse\.sirius\.runtime.*" searchPathRef="SiriusRuntime" failOnError="true"/>
 
   <rm:searchPath name="orbit">
     <rm:provider componentTypes="osgi.bundle,eclipse.feature,buckminster" readerType="p2" source="false" mutable="false">
@@ -50,14 +49,6 @@
         </rm:provider>
         <rm:provider resolutionFilter="(targetEclipseRelease=mars)" componentTypes="osgi.bundle,eclipse.feature" readerType="p2" source="false" mutable="false">
             <rm:uri format="http://download.eclipse.org/technology/epp/packages/mars" />
-        </rm:provider>
-    </rm:searchPath>
-    
-      <rm:searchPath name="SiriusRuntime">
-        <rm:provider componentTypes="eclipse.feature,osgi.bundle"
-            readerType="p2" source="false" mutable="false">
-            <rm:uri format="http://download.eclipse.org/sirius/updates/releases/4.1.3/neon/">
-            </rm:uri>
         </rm:provider>
     </rm:searchPath>
 
