@@ -144,6 +144,9 @@
     <contributions label="Sirius">
       <repositories location="http://download.eclipse.org/sirius/updates/releases/4.1.3/neon/" mirrorArtifacts="false"/>
     </contributions>
+    <contributions label="QVTo">
+      <repositories location="http://download.eclipse.org/mmt/qvto/updates/releases/3.7.0/" mirrorArtifacts="false"/>
+    </contributions>
     <validationRepositories location="http://download.eclipse.org/eclipse/updates/4.6"/>
     <validationRepositories location="http://download.eclipse.org/releases/neon/"/>
   </validationSets>
