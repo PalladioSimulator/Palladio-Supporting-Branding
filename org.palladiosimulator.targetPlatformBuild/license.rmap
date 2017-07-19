@@ -4,14 +4,19 @@
   <rm:locator pattern="^org\.palladiosimulator\.license$" searchPathRef="build" failOnError="true" />
   <rm:locator pattern="^org\.palladiosimulator\.branding$" searchPathRef="build" failOnError="true" />
 
-  <rm:redirect pattern=".*" href="https://anonymous:anonymous@svnserver.informatik.kit.edu/i43/svn/code/Build/trunk/org.palladiosimulator.targetPlatformBuild/eclipse-platform.rmap"/>
+  <rm:redirect pattern=".*" href="https://raw.githubusercontent.com/PalladioSimulator/Palladio-Build-Infrastructure/master/org.palladiosimulator.targetPlatformBuild/eclipse-platform.rmap"/>
 
   <rm:searchPath name="build">
-  	<rm:provider componentTypes="eclipse.feature,osgi.bundle" readerType="svn">
-	   <rm:uri format="https://anonymous:anonymous@svnserver.informatik.kit.edu/i43/svn/code/Build/trunk/{0}">
-	      <bc:propertyRef key="buckminster.component" />
-	   </rm:uri>
+  
+    <rm:provider componentTypes="eclipse.feature,osgi.bundle" readerType="git" source="true">
+      <rm:uri format="{0}/GIT,{1}">
+	    <bc:propertyRef key="workspace.root" />
+      	<bc:propertyRef key="buckminster.component" />
+      </rm:uri>
+      <rm:property key="git.remote.uri" value="https://github.com/PalladioSimulator/Palladio-Build-Infrastructure"/>      
+      <rm:property key="git.auto.fetch" value="true"/>
 	</rm:provider>
+
   </rm:searchPath>
 	
 </rm:rmap>

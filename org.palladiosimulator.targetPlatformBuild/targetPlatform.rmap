@@ -5,14 +5,18 @@
    <rm:property key="projects.location" value="${workspace.root}" />
  
    <rm:searchPath name="buildsvn">
-    <rm:provider componentTypes="eclipse.feature,osgi.bundle,buckminster" readerType="svn" source="true">
-      <rm:uri format="https://anonymous:anonymous@svnserver.informatik.kit.edu/i43/svn/code/Build/trunk/{0}">
+   
+    <rm:provider componentTypes="eclipse.feature,osgi.bundle,buckminster" readerType="git" source="true">
+      <rm:uri format="{0}/GIT,{1}">
+	    <bc:propertyRef key="workspace.root" />
       	<bc:propertyRef key="buckminster.component" />
       </rm:uri>
-    </rm:provider>
+      <rm:property key="git.remote.uri" value="https://github.com/PalladioSimulator/Palladio-Build-Infrastructure"/>      
+      <rm:property key="git.auto.fetch" value="true"/>
+	</rm:provider>
   </rm:searchPath>
     
   <rm:locator searchPathRef="buildsvn" failOnError="false" />
-  <rm:redirect pattern=".*" href="https://anonymous:anonymous@svnserver.informatik.kit.edu/i43/svn/code/Build/trunk/org.palladiosimulator.targetPlatformBuild/eclipse-platform.rmap"/>
+  <rm:redirect pattern=".*" href="https://raw.githubusercontent.com/PalladioSimulator/Palladio-Build-Infrastructure/master/org.palladiosimulator.targetPlatformBuild/eclipse-platform.rmap"/>
   
 </rm:rmap>
