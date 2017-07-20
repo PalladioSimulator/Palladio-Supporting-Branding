@@ -17,7 +17,7 @@
 		<cs:dependency name="org.eclipse.ocl.all.sdk" componentType="eclipse.feature"/>
 		<cs:dependency name="org.eclipse.pde" componentType="eclipse.feature"/>
 		<cs:dependency name="org.eclipse.uml2.sdk" componentType="eclipse.feature"/>
-		<cs:dependency name="org.eclipse.xsd.sdk componentType=" componentType="eclipse.feature"/>
+		<cs:dependency name="org.eclipse.xsd.sdk" componentType="eclipse.feature"/>
 		<cs:dependency name="org.eclipse.equinox.executable" componentType="eclipse.feature"/>
 		<cs:dependency name="org.eclipse.equinox.p2.user.ui" componentType="eclipse.feature"/>
 		<cs:dependency name="org.eclipse.rcp" componentType="eclipse.feature"/>
