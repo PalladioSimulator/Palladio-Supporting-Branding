@@ -290,7 +290,7 @@
       </repositories>
     </contributions>
     <contributions label="Sirius">
-      <repositories location="http://download.eclipse.org/sirius/updates/releases/5.0.0/oxygen" mirrorArtifacts="false"/>
+      <repositories location="http://download.eclipse.org/sirius/updates/releases/4.1.3/neon/" mirrorArtifacts="false"/>
     </contributions>
     <validationRepositories location="http://download.eclipse.org/eclipse/updates/4.7"/>
     <validationRepositories location="http://ftp-stud.hs-esslingen.de/pub/Mirrors/eclipse/releases/oxygen/"/>
