@@ -148,7 +148,7 @@
       <repositories location="http://download.eclipse.org/mmt/qvto/updates/releases/3.7.0/" mirrorArtifacts="false"/>
     </contributions>
     <validationRepositories location="http://download.eclipse.org/eclipse/updates/4.6"/>
-    <validationRepositories location="http://download.eclipse.org/releases/neon/"/>
+    <validationRepositories location="http://ftp-stud.hs-esslingen.de/pub/Mirrors/eclipse/releases/neon/"/>
   </validationSets>
   <configurations architecture="x86_64"/>
   <configurations/>
