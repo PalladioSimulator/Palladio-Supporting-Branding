@@ -7,7 +7,7 @@
    <rm:searchPath name="buildsvn">
    
     <rm:provider componentTypes="eclipse.feature,osgi.bundle,buckminster" readerType="git" source="true">
-      <rm:uri format="{0}/GIT,{1}">
+      <rm:uri format="{0}/BuildInfrastructure,{1}">
 	    <bc:propertyRef key="workspace.root" />
       	<bc:propertyRef key="buckminster.component" />
       </rm:uri>
