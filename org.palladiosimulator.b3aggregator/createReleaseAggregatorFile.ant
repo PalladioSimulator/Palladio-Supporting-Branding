@@ -6,6 +6,10 @@
 			match="https://sdqweb.ipd.kit.edu/eclipse/(.*)/nightly" 
 			replace="https://sdqweb.ipd.kit.edu/eclipse/\1/releases/latest" 
 			byline="true" />
+		<replaceregexp file="palladiosimulator_release.b3aggr" 
+			match="http://ftp-stud.hs-esslingen.de/pub/Mirrors/eclipse/" 
+			replace="http://download.eclipse.org/" 
+			byline="true" />
 	</target>
 
 </project>
