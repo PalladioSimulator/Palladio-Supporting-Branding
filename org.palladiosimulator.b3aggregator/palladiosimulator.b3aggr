@@ -141,6 +141,9 @@
     <contributions description="Henshin" label="Henshin">
       <repositories location="http://download.eclipse.org/modeling/emft/henshin/updates/release" mirrorArtifacts="false"/>
     </contributions>
+    <contributions label="Sirius">
+      <repositories location="http://download.eclipse.org/sirius/updates/releases/4.1.3/neon/" mirrorArtifacts="false"/>
+    </contributions>
     <contributions label="QVTo">
       <repositories location="http://download.eclipse.org/mmt/qvto/updates/releases/3.7.0/" mirrorArtifacts="false"/>
     </contributions>
@@ -285,6 +288,9 @@
       <repositories location="http://ftp-stud.hs-esslingen.de/pub/Mirrors/eclipse/releases/neon/" mirrorArtifacts="false">
         <features name="org.eclipse.gmf.tooling.runtime.feature.group"/>
       </repositories>
+    </contributions>
+    <contributions label="Sirius">
+      <repositories location="http://download.eclipse.org/sirius/updates/releases/5.0.0/oxygen" mirrorArtifacts="false"/>
     </contributions>
     <validationRepositories location="http://download.eclipse.org/eclipse/updates/4.7"/>
     <validationRepositories location="http://ftp-stud.hs-esslingen.de/pub/Mirrors/eclipse/releases/oxygen/"/>
