@@ -18,7 +18,7 @@
 		<cs:dependency name="org.eclipse.emf.compare.egit" componentType="eclipse.feature"/>
 		<cs:dependency name="org.eclipse.emf.ecoretools.explorer.contextual" componentType="eclipse.feature"/>
 		<cs:dependency name="org.eclipse.emf.ecoretools.design" componentType="eclipse.feature"/>
-		<cs:dependency name="org.eclipse.emf.ecp.sdk.feature" componentType="eclipse.feature"/>
+		<!--<cs:dependency name="org.eclipse.emf.ecp.sdk.feature" componentType="eclipse.feature"/>-->
 		<cs:dependency name="org.eclipse.emf.parsley.sdk" componentType="eclipse.feature"/>
 		<cs:dependency name="org.eclipse.emf.parsley.sdk.source" componentType="eclipse.feature"/>
 		<cs:dependency name="org.eclipse.emf.emfstore.sdk.feature" componentType="eclipse.feature"/>
