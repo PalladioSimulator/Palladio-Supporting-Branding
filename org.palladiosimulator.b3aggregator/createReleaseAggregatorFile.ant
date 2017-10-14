@@ -1,12 +1,12 @@
 <project name="CreateReleaseAggregatorFile" default="replace" basedir=".">
 
 	<target name="replace">
-		<copy file="palladiosimulator.b3aggr" toFile="palladiosimulator_release.b3aggr"/>
-		<replaceregexp file="palladiosimulator_release.b3aggr" 
+		<copy file="palladiosimulator.b3aggr" toFile="palladiosimulator_release.aggr"/>
+		<replaceregexp file="palladiosimulator_release.aggr" 
 			match="https://sdqweb.ipd.kit.edu/eclipse/(.*)/nightly" 
 			replace="https://sdqweb.ipd.kit.edu/eclipse/\1/releases/latest" 
 			byline="true" />
-		<replaceregexp file="palladiosimulator_release.b3aggr" 
+		<replaceregexp file="palladiosimulator_release.aggr" 
 			match="http://ftp-stud.hs-esslingen.de/pub/Mirrors/eclipse/" 
 			replace="http://download.eclipse.org/" 
 			byline="true" />

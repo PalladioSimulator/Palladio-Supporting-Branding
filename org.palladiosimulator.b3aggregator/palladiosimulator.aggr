@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<aggregator:Aggregation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" buildmaster="//@contacts[email='steffen.becker@informatik.tu-chemnitz.de']" label="Palladio Simulator P2 Repositoy" buildRoot="./p2">
+<aggregator:Aggregation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" buildmaster="//@contacts[email='steffen.becker@informatik.tu-chemnitz.de']" label="Palladio Simulator P2 Repositoy" buildRoot="./p2">
   <validationSets label="Palladio Core Features Neon">
     <contributions label="Palladio Commons Features">
       <repositories location="https://sdqweb.ipd.kit.edu/eclipse/commons/nightly"/>
