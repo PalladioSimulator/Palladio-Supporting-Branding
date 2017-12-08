@@ -102,7 +102,7 @@
       <repositories location="http://cloudscale.xlab.si/cse/updatesites/usageevolution/nightly/">
         <features name="org.scaledl.usageevolution.feature.feature.group" versionRange="1.0.0.201506260057" categories="//@customCategories[identifier='org.palladiosimulator.addons.category']"/>
       </repositories>
-      <repositories location="http://se2.informatik.uni-wuerzburg.de/eclipse/limbo/">
+      <repositories location="https://se2.informatik.uni-wuerzburg.de/eclipse/limbo/">
         <features name="LIMBO_DLIM.feature.group"/>
       </repositories>
       <repositories location="https://sdqweb.ipd.kit.edu/eclipse/storydiagraminterpreter/releases/latest/">
@@ -253,7 +253,7 @@
       <repositories location="http://cloudscale.xlab.si/cse/updatesites/usageevolution/nightly/">
         <features name="org.scaledl.usageevolution.feature.feature.group" versionRange="1.0.0.201506260057"/>
       </repositories>
-      <repositories location="http://se2.informatik.uni-wuerzburg.de/eclipse/limbo/">
+      <repositories location="https://se2.informatik.uni-wuerzburg.de/eclipse/limbo/">
         <features name="LIMBO_DLIM.feature.group"/>
       </repositories>
       <repositories location="https://sdqweb.ipd.kit.edu/eclipse/storydiagraminterpreter/releases/latest/">
