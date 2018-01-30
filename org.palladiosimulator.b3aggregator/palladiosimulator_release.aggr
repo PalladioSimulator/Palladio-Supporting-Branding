@@ -77,11 +77,6 @@
         <bundles name="javax.websocket"/>
       </repositories>
     </contributions>
-    <contributions label="xText Updates">
-      <repositories location="http://download.eclipse.org/modeling/tmf/xtext/updates/composite/releases" mirrorArtifacts="false">
-        <features name="org.eclipse.xtext.xbase.lib.feature.group"/>
-      </repositories>
-    </contributions>
     <contributions label="PCM Addons">
       <repositories location="https://sdqweb.ipd.kit.edu/eclipse/palladio/addons/ssj/releases/latest/">
         <features name="org.palladiosimulator.simulation.abstractsimengine.ssj.feature.feature.group" categories="//@customCategories[identifier='org.palladiosimulator.addons.category']"/>
