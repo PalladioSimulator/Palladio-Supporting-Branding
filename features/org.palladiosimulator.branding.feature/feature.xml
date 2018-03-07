@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.palladiosimulator.branding.feature"
+      label="Branding Feature"
+      version="1.0.0"
+      plugin="org.palladiosimulator.branding"
+      license-feature="org.palladiosimulator.license"
+      license-feature-version="1.0.0">
+
+   <description>
+      Branding plugins commonly shared between Palladio features and bundles.
+   </description>
+
+   <plugin
+         id="org.palladiosimulator.branding"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+</feature>
