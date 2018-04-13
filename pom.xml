@@ -19,4 +19,12 @@
 		<module>releng</module>
 	</modules>
 	
+	<repositories>
+		<repository>
+			<id>eclipse</id>
+			<layout>p2</layout>
+			<url>http://download.eclipse.org/releases/oxygen/201705261000/</url>
+		</repository>
+	</repositories>
+	
 </project>
