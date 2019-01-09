@@ -4,9 +4,9 @@
 		
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
-		<groupId>org.palladiosimulator</groupId>
-		<artifactId>eclipse-parent</artifactId>
-		<version>0.1.2</version>
+		<groupId>tools.mdsd</groupId>
+		<artifactId>eclipse-parent-updatesite</artifactId>
+		<version>0.1.0</version>
 	</parent>
 	<groupId>org.palladiosimulator.branding</groupId>
 	<artifactId>parent</artifactId>	
@@ -18,13 +18,5 @@
 		<module>features</module>
 		<module>releng</module>
 	</modules>
-	
-	<repositories>
-		<repository>
-			<id>eclipse</id>
-			<layout>p2</layout>
-			<url>http://download.eclipse.org/releases/oxygen/201705261000/</url>
-		</repository>
-	</repositories>
 	
 </project>
