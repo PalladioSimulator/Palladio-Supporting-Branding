@@ -2,10 +2,10 @@
 <feature
       id="org.palladiosimulator.branding.feature"
       label="Branding Feature"
-      version="1.0.0"
+      version="2.0.0"
       plugin="org.palladiosimulator.branding"
       license-feature="org.palladiosimulator.license"
-      license-feature-version="1.0.0">
+      license-feature-version="2.0.0">
 
    <description>
       Branding plugins commonly shared between Palladio features and bundles.

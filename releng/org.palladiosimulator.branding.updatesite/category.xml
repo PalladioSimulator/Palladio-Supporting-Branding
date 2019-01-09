@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
-	<feature url="features/org.palladiosimulator.branding.feature_1.0.0.jar" id="org.palladiosimulator.branding.feature" version="1.0.0">
+	<feature url="features/org.palladiosimulator.branding.feature_2.0.0.jar" id="org.palladiosimulator.branding.feature" version="2.0.0">
 		<category name="pcm-branding"/>
 	</feature>
-	<feature url="features/org.palladiosimulator.license_1.0.0.jar" id="org.palladiosimulator.license" version="1.0.0">
+	<feature url="features/org.palladiosimulator.license_2.0.0.jar" id="org.palladiosimulator.license" version="2.0.0">
 		<category name="pcm-branding"/>
 	</feature>
-	<feature url="features/org.palladiosimulator.branding.feature.source_1.0.0.jar" id="org.palladiosimulator.branding.feature.source" version="1.0.0">
+	<feature url="features/org.palladiosimulator.branding.feature.source_2.0.0.jar" id="org.palladiosimulator.branding.feature.source" version="2.0.0">
 		<category name="pcm-branding-source"/>
 	</feature>
-	<feature url="features/org.palladiosimulator.license.source_1.0.0.jar" id="org.palladiosimulator.license.source" version="1.0.0">
+	<feature url="features/org.palladiosimulator.license.source_2.0.0.jar" id="org.palladiosimulator.license.source" version="2.0.0">
 		<category name="pcm-branding-source"/>
 	</feature>
 	<category-def name="pcm-branding" label="Palladio Simulator Branding"/>
