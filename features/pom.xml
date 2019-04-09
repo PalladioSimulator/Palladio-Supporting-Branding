@@ -13,6 +13,7 @@
 	
 	<modules>
 		<module>org.palladiosimulator.license</module>
+		<module>org.palladiosimulator.license.epl2</module>
 		<module>org.palladiosimulator.branding.feature</module>
 	</modules>
 	
