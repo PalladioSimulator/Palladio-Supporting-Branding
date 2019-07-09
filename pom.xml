@@ -6,7 +6,7 @@
 	<parent>
 		<groupId>tools.mdsd</groupId>
 		<artifactId>eclipse-parent-updatesite</artifactId>
-		<version>0.1.3</version>
+		<version>0.3.0</version>
 	</parent>
 	<groupId>org.palladiosimulator.branding</groupId>
 	<artifactId>parent</artifactId>	
