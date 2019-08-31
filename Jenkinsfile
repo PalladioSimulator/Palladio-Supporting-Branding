@@ -1,4 +1,3 @@
-palladioBuild {
-	webserverDir = 'palladio/supporting/branding'
+PalladioPipeline {
 	updateSiteLocation = 'releng/org.palladiosimulator.branding.updatesite/target/repository'
 }
