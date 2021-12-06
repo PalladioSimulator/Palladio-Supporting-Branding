@@ -2,7 +2,7 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: Palladio Simulator
 Bundle-SymbolicName: org.palladiosimulator.branding;singleton:=true
-Bundle-Version: 2.0.0
+Bundle-Version: 5.1.0.qualifier
 Bundle-Vendor: palladiosimulator.org
 Require-Bundle: org.eclipse.core.runtime
 Bundle-RequiredExecutionEnvironment: JavaSE-11

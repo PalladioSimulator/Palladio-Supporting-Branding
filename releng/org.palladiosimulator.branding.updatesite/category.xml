@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
-   <feature url="features/org.palladiosimulator.branding.feature_2.0.0.jar" id="org.palladiosimulator.branding.feature" version="2.0.0">
+   <feature url="features/org.palladiosimulator.branding.feature_5.1.0.qualifier.jar" id="org.palladiosimulator.branding.feature" version="5.1.0.qualifier">
       <category name="pcm-branding"/>
    </feature>
-   <feature url="features/org.palladiosimulator.branding.feature.source_2.0.0.jar" id="org.palladiosimulator.branding.feature.source" version="2.0.0">
+   <feature url="features/org.palladiosimulator.branding.feature.source_5.1.0.qualifier.jar" id="org.palladiosimulator.branding.feature.source" version="5.1.0.qualifier">
       <category name="pcm-branding-source"/>
    </feature>
-   <feature url="features/org.palladiosimulator.license_1.0.0.jar" id="org.palladiosimulator.license" version="1.0.0">
+   <feature url="features/org.palladiosimulator.license_5.1.0.qualifier.jar" id="org.palladiosimulator.license" version="5.1.0.qualifier">
       <category name="pcm-branding"/>
    </feature>
-   <feature url="features/org.palladiosimulator.license.source_1.0.0.jar" id="org.palladiosimulator.license" version="1.0.0">
+   <feature url="features/org.palladiosimulator.license.source_5.1.0.qualifier.jar" id="org.palladiosimulator.license" version="5.1.0.qualifier">
       <category name="pcm-branding-source"/>
    </feature>
-   <feature url="features/org.palladiosimulator.license.epl2_1.0.0.jar" id="org.palladiosimulator.license.epl2" version="1.0.0">
+   <feature url="features/org.palladiosimulator.license.epl2_5.1.0.qualifier.jar" id="org.palladiosimulator.license.epl2" version="5.1.0.qualifier">
       <category name="pcm-branding"/>
    </feature>
-   <feature url="features/org.palladiosimulator.license.epl2.source_1.0.0.jar" id="org.palladiosimulator.license.epl2" version="1.0.0">
+   <feature url="features/org.palladiosimulator.license.epl2.source_5.1.0.qualifier.jar" id="org.palladiosimulator.license.epl2" version="5.1.0.qualifier">
       <category name="pcm-branding-source"/>
    </feature>
    <category-def name="pcm-branding" label="Palladio Simulator Branding"/>
