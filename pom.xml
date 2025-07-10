@@ -4,14 +4,18 @@
 		
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
-		<groupId>tools.mdsd</groupId>
+		<groupId>org.palladiosimulator</groupId>
 		<artifactId>eclipse-parent-updatesite</artifactId>
-		<version>0.8.9</version>
+		<version>0.10.0</version>
 	</parent>
 	<groupId>org.palladiosimulator.branding</groupId>
 	<artifactId>parent</artifactId>	
 	<version>0.1.0-SNAPSHOT</version>
 	<packaging>pom</packaging>
+
+	<properties>
+		<targetPlatform.relativePath>releng/org.palladiosimulator.branding.targetplatform/tp.target</targetPlatform.relativePath>
+	</properties>
 	
 	<modules>
 		<module>bundles</module>
